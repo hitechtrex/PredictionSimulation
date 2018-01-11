@@ -1,0 +1,311 @@
+/*
+* CS5900-10 Computer Architecture
+* Project: Branch Prediction
+* Author: Steve Jia
+* File: Program_Output.txt
+* 
+* Description: this file contains predictor accuracy
+*	and hardware cost output by the main program
+*/
+
+$ ./BranchPrediction
+Starting branch predictors...
+
+----- Static Prediction -----
+	Percentage correct: 48.086967%
+	Correct: 1290873.000000
+	Total Branches: 2684455.000000
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 512, BHR Len: 2 -----
+	Percentage Correct: 77.243947%
+	Correct: 2073579.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 0.640000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 512, BHR Len: 4 -----
+	Percentage Correct: 78.960161%
+	Correct: 2119650.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 2.304000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 512, BHR Len: 8 -----
+	Percentage Correct: 81.080815%
+	Correct: 2176578.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 33.280000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 1024, BHR Len: 2 -----
+	Percentage Correct: 87.348978%
+	Correct: 2344844.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 1.280000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 1024, BHR Len: 4 -----
+	Percentage Correct: 89.866621%
+	Correct: 2412429.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 4.608000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 1024, BHR Len: 8 -----
+	Percentage Correct: 92.818319%
+	Correct: 2491666.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 66.560000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 2048, BHR Len: 2 -----
+	Percentage Correct: 89.417293%
+	Correct: 2400367.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 2.560000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 2048, BHR Len: 4 -----
+	Percentage Correct: 91.985189%
+	Correct: 2469301.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 9.216000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 2048, BHR Len: 8 -----
+	Percentage Correct: 94.974660%
+	Correct: 2549552.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 133.120000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 4096, BHR Len: 2 -----
+	Percentage Correct: 89.417293%
+	Correct: 2400367.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 5.120000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 4096, BHR Len: 4 -----
+	Percentage Correct: 91.985189%
+	Correct: 2469301.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 18.432000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 4096, BHR Len: 8 -----
+	Percentage Correct: 94.974660%
+	Correct: 2549552.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 266.240000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 8192, BHR Len: 2 -----
+	Percentage Correct: 89.417293%
+	Correct: 2400367.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 10.240000 Kbytes
+
+------ Two-Level Prediction (PAp) -------
+----- BHT Len: 8192, BHR Len: 4 -----
+	Percentage Correct: 91.985189%
+	Correct: 2469301.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 36.864000 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 2, PHT Len: 512 -----
+	Percentage Correct: 69.583360%
+	Correct: 1867934.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 0.512250 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 4, PHT Len: 512 -----
+	Percentage Correct: 78.322714%
+	Correct: 2102538.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 2.048500 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 8, PHT Len: 512 -----
+	Percentage Correct: 92.054737%
+	Correct: 2471168.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 32.769000 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 2, PHT Len: 1024 -----
+	Percentage Correct: 76.014498%
+	Correct: 2040575.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 1.024250 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 4, PHT Len: 1024 -----
+	Percentage Correct: 84.060191%
+	Correct: 2256558.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 4.096500 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 8, PHT Len: 1024 -----
+	Percentage Correct: 93.127208%
+	Correct: 2499958.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 65.537000 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 2, PHT Len: 2048 -----
+	Percentage Correct: 80.100281%
+	Correct: 2150256.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 2.048250 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 4, PHT Len: 2048 -----
+	Percentage Correct: 86.796128%
+	Correct: 2330003.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 8.192500 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 8, PHT Len: 2048 -----
+	Percentage Correct: 93.773261%
+	Correct: 2517301.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 131.073000 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 2, PHT Len: 4096 -----
+	Percentage Correct: 83.358708%
+	Correct: 2237727.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 4.096250 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 4, PHT Len: 4096 -----
+	Percentage Correct: 88.464809%
+	Correct: 2374798.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 16.384500 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 8, PHT Len: 4096 -----
+	Percentage Correct: 93.932288%
+	Correct: 2521570.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 262.145000 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 2, PHT Len: 8192 -----
+	Percentage Correct: 85.233055%
+	Correct: 2288043.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 8.192250 Kbytes
+
+------ Two-Level Prediction (GAp) -------
+--------- BHR Len: 4, PHT Len: 8192 -----
+	Percentage Correct: 89.388274%
+	Correct: 2399588.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 32.768500 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 2, PHT Len: 512 -----
+	Percentage Correct: 65.959571%
+	Correct: 1770655.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 0.512250 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 4, PHT Len: 512 -----
+	Percentage Correct: 72.103164%
+	Correct: 1935577.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 2.048500 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 8, PHT Len: 512 -----
+	Percentage Correct: 91.911505%
+	Correct: 2467323.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 32.769000 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 2, PHT Len: 1024 -----
+	Percentage Correct: 71.772371%
+	Correct: 1926697.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 1.024250 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 4, PHT Len: 1024 -----
+	Percentage Correct: 79.112408%
+	Correct: 2123737.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 4.096500 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 8, PHT Len: 1024 -----
+	Percentage Correct: 93.712839%
+	Correct: 2515679.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 65.537000 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 2, PHT Len: 2048 -----
+	Percentage Correct: 77.807786%
+	Correct: 2088715.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 2.048250 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 4, PHT Len: 2048 -----
+	Percentage Correct: 84.696372%
+	Correct: 2273636.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 8.192500 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 8, PHT Len: 2048 -----
+	Percentage Correct: 94.753833%
+	Correct: 2543624.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 131.073000 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 2, PHT Len: 4096 -----
+	Percentage Correct: 84.475322%
+	Correct: 2267702.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 4.096250 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 4, PHT Len: 4096 -----
+	Percentage Correct: 89.307923%
+	Correct: 2397431.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 16.384500 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 8, PHT Len: 4096 -----
+	Percentage Correct: 95.530117%
+	Correct: 2564463.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 262.145000 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 2, PHT Len: 8192 -----
+	Percentage Correct: 89.135374%
+	Correct: 2392799.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 8.192250 Kbytes
+
+------ GShare Prediction -------
+----- BHR Len: 4, PHT Len: 8192 -----
+	Percentage Correct: 92.373350%
+	Correct: 2479721.000000
+	Total Branches: 2684455.000000
+	Hardware Cost 32.768500 Kbytes
